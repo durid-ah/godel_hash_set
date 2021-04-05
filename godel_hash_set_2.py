@@ -34,6 +34,7 @@ class GodelHashSet2:
       bucket: SortedSet = self.container[idx]
       if val in bucket:
          bucket.remove(val)
+         self.size -= 1
          return True
       else:
          return False
