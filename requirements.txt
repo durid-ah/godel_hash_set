@@ -1,1 +1,2 @@
 pyprimesieve==0.1.6
+sortedcontainers==2.3.0
